@@ -1,6 +1,9 @@
 import { Github, Linkedin, Mail, Phone, Globe, ChevronDown } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="home"
@@ -22,7 +25,7 @@ export function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-950 border border-primary-800 text-primary-300 text-sm font-mono mb-8 animate-fade-in">
           <span className="w-2 h-2 rounded-full bg-success-500 animate-pulse" />
-          Available for new opportunities
+          {t('hero.available')}
         </div>
 
         {/* Name */}
@@ -35,13 +38,12 @@ export function Hero() {
 
         {/* Title */}
         <p className="text-xl md:text-2xl text-neutral-400 font-light mb-6 animate-fade-up" style={{ animationDelay: '0.1s', opacity: 0 }}>
-          Senior Software Engineer &amp; Backend Architect
+          {t('hero.title')}
         </p>
 
         {/* Sub tagline */}
         <p className="text-neutral-500 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
-          13+ years building scalable SaaS platforms, microservices, and mission-critical systems
-          for fintechs, marketplaces, and enterprise clients.
+          {t('hero.description')}
         </p>
 
         {/* CTA buttons */}
@@ -50,13 +52,13 @@ export function Hero() {
             href="#contact"
             className="px-8 py-3 rounded-lg bg-primary-600 hover:bg-primary-500 text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-primary-600/30 hover:-translate-y-0.5"
           >
-            Get in touch
+            {t('hero.cta_contact')}
           </a>
           <a
             href="#portfolio"
             className="px-8 py-3 rounded-lg border border-neutral-700 hover:border-neutral-500 text-neutral-300 hover:text-white font-medium transition-all duration-200 hover:-translate-y-0.5"
           >
-            View portfolio
+            {t('hero.cta_portfolio')}
           </a>
         </div>
 
@@ -95,7 +97,7 @@ export function Hero() {
             <Globe size={20} />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/felipefejao"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2.5 rounded-lg text-neutral-500 hover:text-primary-400 hover:bg-primary-950 transition-all duration-200"
@@ -110,7 +112,7 @@ export function Hero() {
           href="#about"
           className="inline-flex flex-col items-center gap-1 text-neutral-600 hover:text-neutral-400 transition-colors duration-200 animate-bounce"
         >
-          <span className="text-xs font-mono tracking-widest uppercase">scroll</span>
+          <span className="text-xs font-mono tracking-widest uppercase">{t('common.scroll')}</span>
           <ChevronDown size={16} />
         </a>
       </div>

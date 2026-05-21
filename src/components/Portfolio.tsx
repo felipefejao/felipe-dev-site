@@ -1,41 +1,23 @@
 import { useInView } from '../hooks/useInView';
 import { ExternalLink, Github, Tag } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import debtoHome from '../img/debto-home.png';
 
-const projects = [
-  {
-    title: 'Project Name Here',
-    description:
-      'Brief description of what this project does, the problem it solves, and the impact it had. Replace this with your actual project details.',
-    tags: ['PHP', 'Laravel', 'MySQL', 'REST API'],
-    image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800',
-    github: '#',
-    demo: '#',
-    featured: true,
-  },
-  {
-    title: 'Another Project',
-    description:
-      'Description of a backend service, microservices architecture, or SaaS platform you built. Highlight key technical achievements.',
-    tags: ['Microservices', 'Docker', 'AWS', 'PostgreSQL'],
-    image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800',
-    github: '#',
-    demo: '#',
-    featured: false,
-  },
-  {
-    title: 'Enterprise Integration',
-    description:
-      'A complex integration or automation system built for enterprise clients. Describe the scale, technology stack, and business outcome.',
-    tags: ['Symfony', 'React', 'Vue.js', 'CI/CD'],
-    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
-    github: '#',
-    demo: '#',
-    featured: false,
-  },
-];
+interface ProjectItem {
+  title: string;
+  description: string;
+  tags: string[];
+  image: string;
+  github: string;
+  demo: string;
+  featured: boolean;
+}
 
 export function Portfolio() {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
+
+  const projects = t('portfolio.items', { returnObjects: true }) as ProjectItem[];
 
   return (
     <section id="portfolio" className="py-24 bg-neutral-900">
@@ -44,13 +26,12 @@ export function Portfolio() {
           ref={ref}
           className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
-          <SectionLabel>Portfolio</SectionLabel>
+          <SectionLabel>{t('portfolio.label')}</SectionLabel>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Selected <span className="text-primary-400">projects</span>
+            {t('portfolio.title_start')}<span className="text-primary-400">{t('portfolio.title_highlight')}</span>
           </h2>
           <p className="text-neutral-500 mb-12 max-w-xl">
-            A curated selection of projects. Details and links will be updated as projects are made
-            public.
+            {t('portfolio.description')}
           </p>
 
           {/* Featured project */}
@@ -74,22 +55,23 @@ export function Portfolio() {
   );
 }
 
-type Project = (typeof projects)[0];
-
-function FeaturedCard({ project }: { project: Project }) {
+function FeaturedCard({ project }: { project: ProjectItem }) {
+  const { t } = useTranslation();
+  const imageSrc = project.image === 'img/debto-home.png' ? debtoHome : project.image;
+  
   return (
     <div className="mb-6 rounded-xl overflow-hidden border border-neutral-800 hover:border-primary-800/60 transition-colors duration-300 group bg-neutral-950">
       <div className="grid md:grid-cols-2">
         <div className="relative h-56 md:h-auto overflow-hidden">
           <img
-            src={project.image}
+            src={imageSrc}
             alt={project.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-neutral-950/60" />
           <div className="absolute top-4 left-4">
             <span className="px-2.5 py-1 rounded text-xs font-mono bg-primary-600 text-white">
-              Featured
+              {t('portfolio.featured_label')}
             </span>
           </div>
         </div>
@@ -117,14 +99,14 @@ function FeaturedCard({ project }: { project: Project }) {
               className="flex items-center gap-1.5 px-4 py-2 rounded-lg border border-neutral-700 text-neutral-300 hover:text-white hover:border-neutral-500 text-sm transition-colors duration-200"
             >
               <Github size={14} />
-              Code
+              {t('portfolio.code_link')}
             </a>
             <a
               href={project.demo}
               className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary-600 hover:bg-primary-500 text-white text-sm transition-colors duration-200"
             >
               <ExternalLink size={14} />
-              Demo
+              {t('portfolio.demo_link')}
             </a>
           </div>
         </div>
@@ -133,8 +115,10 @@ function FeaturedCard({ project }: { project: Project }) {
   );
 }
 
-function ProjectCard({ project, index }: { project: Project; index: number }) {
+function ProjectCard({ project, index }: { project: ProjectItem; index: number }) {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
+  const imageSrc = project.image === 'img/debto-home.png' ? debtoHome : project.image;
 
   return (
     <div
@@ -146,7 +130,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
     >
       <div className="relative h-44 overflow-hidden">
         <img
-          src={project.image}
+          src={imageSrc}
           alt={project.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
@@ -173,14 +157,14 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
             className="flex items-center gap-1.5 px-3 py-1.5 rounded border border-neutral-700 text-neutral-400 hover:text-white hover:border-neutral-500 text-xs transition-colors duration-200"
           >
             <Github size={12} />
-            Code
+            {t('portfolio.code_link')}
           </a>
           <a
             href={project.demo}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded bg-primary-600 hover:bg-primary-500 text-white text-xs transition-colors duration-200"
           >
             <ExternalLink size={12} />
-            Demo
+            {t('portfolio.demo_link')}
           </a>
         </div>
       </div>

@@ -1,47 +1,49 @@
 import { useInView } from '../hooks/useInView';
 import { Mail, Phone, MapPin, Linkedin, Globe, Github, ArrowUpRight } from 'lucide-react';
-
-const contactItems = [
-  {
-    icon: Mail,
-    label: 'Email',
-    value: 'fsilva.web@gmail.com',
-    href: 'mailto:fsilva.web@gmail.com',
-  },
-  {
-    icon: Phone,
-    label: 'Phone',
-    value: '+55 11 98688-7658',
-    href: 'tel:+5511986887658',
-  },
-  {
-    icon: MapPin,
-    label: 'Location',
-    value: 'São Paulo, Brazil',
-    href: null,
-  },
-  {
-    icon: Linkedin,
-    label: 'LinkedIn',
-    value: 'linkedin.com/in/felipesilvasp',
-    href: 'https://linkedin.com/in/felipesilvasp',
-  },
-  {
-    icon: Globe,
-    label: 'Website',
-    value: 'dev7.com.br',
-    href: 'https://dev7.com.br',
-  },
-  {
-    icon: Github,
-    label: 'GitHub',
-    value: 'github.com',
-    href: 'https://github.com',
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export function Contact() {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
+
+  const contactItems = [
+    {
+      icon: Mail,
+      label: t('contact.labels.Email'),
+      value: 'fsilva.web@gmail.com',
+      href: 'mailto:fsilva.web@gmail.com',
+    },
+    {
+      icon: Phone,
+      label: t('contact.labels.Phone'),
+      value: '+55 11 98688-7658',
+      href: 'tel:+5511986887658',
+    },
+    {
+      icon: MapPin,
+      label: t('contact.labels.Location'),
+      value: t('contact.values.Location'),
+      href: null,
+    },
+    {
+      icon: Linkedin,
+      label: t('contact.labels.LinkedIn'),
+      value: 'linkedin.com/in/felipesilvasp',
+      href: 'https://linkedin.com/in/felipesilvasp',
+    },
+    {
+      icon: Globe,
+      label: t('contact.labels.Website'),
+      value: 'dev7.com.br',
+      href: 'https://dev7.com.br',
+    },
+    {
+      icon: Github,
+      label: t('contact.labels.GitHub'),
+      value: 'github.com/felipefejao',
+      href: 'https://github.com/felipefejao',
+    },
+  ];
 
   return (
     <section id="contact" className="py-24 bg-neutral-900">
@@ -50,13 +52,12 @@ export function Contact() {
           ref={ref}
           className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
-          <SectionLabel>Contact</SectionLabel>
+          <SectionLabel>{t('contact.label')}</SectionLabel>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Let's <span className="text-primary-400">work together</span>
+            {t('contact.title_start')}<span className="text-primary-400">{t('contact.title_highlight')}</span>
           </h2>
           <p className="text-neutral-400 mb-12 max-w-xl">
-            I'm open to senior engineering roles, backend architecture consulting, and long-term
-            technical partnerships. Let's talk.
+            {t('contact.description')}
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -109,11 +110,9 @@ export function Contact() {
                 <div className="w-12 h-12 rounded-xl bg-primary-600/20 border border-primary-700 flex items-center justify-center mb-6">
                   <Mail size={20} className="text-primary-400" />
                 </div>
-                <h3 className="text-white text-xl font-bold mb-3">Ready to build something great?</h3>
+                <h3 className="text-white text-xl font-bold mb-3">{t('contact.cta_card.title')}</h3>
                 <p className="text-neutral-400 text-sm leading-relaxed mb-8">
-                  Whether you need to modernize a legacy system, scale a platform to handle millions
-                  of users, or architect a new SaaS product — I bring 13+ years of battle-tested
-                  experience to the table.
+                  {t('contact.cta_card.description')}
                 </p>
               </div>
               <a
@@ -121,7 +120,7 @@ export function Contact() {
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-primary-600 hover:bg-primary-500 text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-primary-600/30 hover:-translate-y-0.5"
               >
                 <Mail size={16} />
-                Send me an email
+                {t('contact.cta_card.button')}
               </a>
             </div>
           </div>

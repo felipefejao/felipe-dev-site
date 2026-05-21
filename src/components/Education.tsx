@@ -1,37 +1,32 @@
 import { useInView } from '../hooks/useInView';
 import { GraduationCap, Award } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-const education = [
-  {
-    degree: 'CST in Internet Systems',
-    institution: 'UniCesumar',
-    period: '2025 – 2027',
-    status: 'In progress',
-  },
-  {
-    degree: 'Technical Degree in Systems Development',
-    institution: 'Instituto Federal de São Paulo (IFSP)',
-    period: 'Completed',
-    status: 'Completed',
-  },
-];
+interface EducationItem {
+  degree: string;
+  institution: string;
+  period: string;
+  status: string;
+}
 
-const certifications = [
-  { name: 'Scrum Fundamentals Certified (SFC)', issuer: 'SCRUMstudy' },
-  { name: 'Clean Architecture', issuer: 'Self-directed' },
-  { name: 'SOLID Principles', issuer: 'Self-directed' },
-  { name: 'Software Architecture and Design Patterns', issuer: 'Self-directed' },
-];
+interface CertificationItem {
+  name: string;
+  issuer: string;
+}
 
-const languages = [
-  { language: 'Portuguese', level: 'Native', pct: 100 },
-  { language: 'English', level: 'Full Professional', pct: 90 },
-  { language: 'Spanish', level: 'Basic', pct: 30 },
-  { language: 'German', level: 'Basic', pct: 25 },
-];
+interface LanguageItem {
+  language: string;
+  level: string;
+  pct: number;
+}
 
 export function Education() {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
+
+  const education = t('education.items', { returnObjects: true }) as EducationItem[];
+  const certifications = t('education.certifications', { returnObjects: true }) as CertificationItem[];
+  const languages = t('education.languages', { returnObjects: true }) as LanguageItem[];
 
   return (
     <section id="education" className="py-24 bg-neutral-950">
@@ -40,9 +35,9 @@ export function Education() {
           ref={ref}
           className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
-          <SectionLabel>Education & Credentials</SectionLabel>
+          <SectionLabel>{t('education.label')}</SectionLabel>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
-            Academic <span className="text-primary-400">background</span>
+            {t('education.title_start')}<span className="text-primary-400">{t('education.title_highlight')}</span>
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -50,7 +45,7 @@ export function Education() {
             <div>
               <div className="flex items-center gap-2 mb-6">
                 <GraduationCap size={18} className="text-primary-500" />
-                <h3 className="text-white font-semibold">Education</h3>
+                <h3 className="text-white font-semibold">{t('education.education_title')}</h3>
               </div>
               <div className="space-y-4">
                 {education.map((edu) => (
@@ -62,7 +57,7 @@ export function Education() {
                       <h4 className="text-white font-medium text-sm">{edu.degree}</h4>
                       <span
                         className={`flex-shrink-0 text-xs px-2 py-0.5 rounded-full font-mono ${
-                          edu.status === 'In progress'
+                          edu.status === 'In progress' || edu.status === 'Em andamento'
                             ? 'bg-primary-950 text-primary-400 border border-primary-800'
                             : 'bg-neutral-800 text-neutral-500 border border-neutral-700'
                         }`}
@@ -81,7 +76,7 @@ export function Education() {
             <div>
               <div className="flex items-center gap-2 mb-6">
                 <Award size={18} className="text-primary-500" />
-                <h3 className="text-white font-semibold">Certifications</h3>
+                <h3 className="text-white font-semibold">{t('education.certifications_title')}</h3>
               </div>
               <div className="space-y-3">
                 {certifications.map((cert) => (
@@ -102,7 +97,7 @@ export function Education() {
             <div>
               <div className="flex items-center gap-2 mb-6">
                 <span className="text-primary-500 text-lg">🌐</span>
-                <h3 className="text-white font-semibold">Languages</h3>
+                <h3 className="text-white font-semibold">{t('education.languages_title')}</h3>
               </div>
               <div className="space-y-5">
                 {languages.map((lang) => (

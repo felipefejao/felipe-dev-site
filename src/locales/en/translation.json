@@ -1,0 +1,232 @@
+{
+  "common": {
+    "scroll": "scroll"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "portfolio": "Portfolio",
+    "education": "Education",
+    "contact": "Contact",
+    "hire_me": "Hire me"
+  },
+  "hero": {
+    "available": "Available for new opportunities",
+    "title": "Senior Software Engineer & Backend Architect",
+    "description": "13+ years building scalable SaaS platforms, microservices, and mission-critical systems for fintechs, marketplaces, and enterprise clients.",
+    "cta_contact": "Get in touch",
+    "cta_portfolio": "View portfolio"
+  },
+  "about": {
+    "label": "About",
+    "title_start": "Building software that ",
+    "title_highlight": "scales",
+    "p1": "Senior Software Engineer with <1>13+ years</1> of experience designing, modernizing, and scaling business-critical systems for fintechs, marketplaces, loyalty platforms, logistics, and healthtech companies.",
+    "p2": "Strong expertise in backend architecture, legacy modernization, microservices, cloud environments, and enterprise integrations. Proven track record working on high-traffic applications and scalable SaaS platforms focused on performance, maintainability, and long-term reliability.",
+    "p3": "Experienced in driving architectural improvements, reducing technical debt, improving engineering quality, and supporting mission-critical systems used by thousands of users and enterprise clients.",
+    "location": "São Paulo, Brazil",
+    "experience": "13+ years experience",
+    "stat_years": "Years of experience",
+    "stat_industries": "Industries served",
+    "stat_migrations": "Client migrations supported",
+    "stat_users": "Monthly users reached"
+  },
+  "skills": {
+    "label": "Skills",
+    "title_start": "Core ",
+    "title_highlight": "expertise",
+    "categories": {
+      "backend": "Backend & Architecture",
+      "frontend": "Frontend",
+      "cloud": "Cloud & DevOps",
+      "databases": "Databases",
+      "practices": "Engineering Practices"
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "title_start": "Professional ",
+    "title_highlight": "journey",
+    "items": [
+      {
+        "title": "Senior Software Engineer",
+        "company": "Rock Encantech",
+        "period": "Mar 2025 – Jan 2026",
+        "highlights": [
+          "Led backend initiatives and architectural improvements for a microservices-based loyalty marketplace platform.",
+          "Designed and developed scalable integrations and business-critical features focused on loyalty points management and exchange operations.",
+          "Worked on scalability, security, and high-availability improvements supporting enterprise-level operations.",
+          "Collaborated in technical decision-making and long-term platform evolution."
+        ],
+        "tags": ["Microservices", "Loyalty Platform", "High Availability"]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "LL Loyalty",
+        "period": "Jun 2024 – Mar 2025",
+        "highlights": [
+          "Developed scalable backend solutions and enterprise integrations for loyalty marketplace platforms.",
+          "Participated in MVP technical planning and implementation for fintech-oriented products.",
+          "Improved production stability, maintainability, and engineering quality in critical environments.",
+          "Worked with microservices architecture focused on scalability and operational efficiency."
+        ],
+        "tags": ["Fintech", "MVP", "Microservices"]
+      },
+      {
+        "title": "Senior Full Stack Developer",
+        "company": "Pasquali Solution",
+        "period": "Aug 2023 – Jul 2024",
+        "highlights": [
+          "Designed and developed scalable enterprise integrations and backend solutions for strategic clients.",
+          "Led modernization efforts in legacy systems improving maintainability and long-term scalability.",
+          "Implemented automated tests and engineering best practices using SOLID and Clean Architecture.",
+          "Supported critical production environments and resolved high-priority operational issues.",
+          "Worked with Laravel, Symfony, React, Vue.js, AWS, MySQL, and PostgreSQL."
+        ],
+        "tags": ["Laravel", "Symfony", "React", "AWS"]
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Atlas Technologies",
+        "period": "Jul 2021 – Apr 2023",
+        "highlights": [
+          "Developed and optimized backend services for a high-traffic marketplace platform handling millions of monthly visits.",
+          "Refactored legacy systems improving scalability, maintainability, and engineering quality.",
+          "Built integrations and new platform features supporting large-scale marketplace operations.",
+          "Collaborated in strategic technical improvements focused on long-term platform reliability and performance.",
+          "Main client: Fatal Model."
+        ],
+        "tags": ["High-Traffic", "Marketplace", "Legacy Modernization"]
+      },
+      {
+        "title": "Web Developer",
+        "company": "YouSync",
+        "period": "Apr 2019 – Jun 2021",
+        "highlights": [
+          "Developed integrations and automation routines for HealthTech enterprise clients.",
+          "Delivered business-critical solutions for companies including Petz and Ricoh.",
+          "Worked on operational efficiency improvements and scalable management systems."
+        ],
+        "tags": ["HealthTech", "Automation", "Integrations"]
+      },
+      {
+        "title": "Web Developer",
+        "company": "Union Softwares",
+        "period": "May 2017 – Nov 2019",
+        "highlights": [
+          "Maintained and evolved systems focused on the real estate market.",
+          "Supported the migration of more than 5,000 active clients while maintaining platform stability and uninterrupted operations.",
+          "Worked on workflow optimization and system modernization initiatives."
+        ],
+        "tags": ["Real Estate", "Client Migration", "System Modernization"]
+      }
+    ]
+  },
+  "education": {
+    "label": "Education & Credentials",
+    "title_start": "Academic ",
+    "title_highlight": "background",
+    "education_title": "Education",
+    "certifications_title": "Certifications",
+    "languages_title": "Languages",
+    "items": [
+      {
+        "degree": "CST in Internet Systems",
+        "institution": "UniCesumar",
+        "period": "2025 – 2027",
+        "status": "In progress"
+      },
+      {
+        "degree": "Technical Degree in Systems Development",
+        "institution": "Instituto Federal de São Paulo (IFSP)",
+        "period": "Completed",
+        "status": "Completed"
+      }
+    ],
+    "certifications": [
+      { "name": "Scrum Fundamentals Certified (SFC)", "issuer": "SCRUMstudy" },
+      { "name": "Clean Architecture", "issuer": "Self-directed" },
+      { "name": "SOLID Principles", "issuer": "Self-directed" },
+      { "name": "Software Architecture and Design Patterns", "issuer": "Self-directed" }
+    ],
+    "languages": [
+      { "language": "Portuguese", "level": "Native", "pct": 100 },
+      { "language": "English", "level": "Full Professional", "pct": 90 },
+      { "language": "Spanish", "level": "Basic", "pct": 30 },
+      { "language": "German", "level": "Basic", "pct": 25 }
+    ]
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title_start": "Selected ",
+    "title_highlight": "projects",
+    "description": "A curated selection of projects. Details and links will be updated as projects are made public.",
+    "featured_label": "Featured",
+    "code_link": "Code",
+    "demo_link": "Demo",
+    "items": [
+      {
+        "title": "DeBto - Sale Management System",
+        "description": "Complete system for small businesses to manage installment sales with organization and efficiency.",
+        "tags": ["PHP", "Laravel", "MySQL", "REST API"],
+        "image": "img/debto-home.png",
+        "github": "#",
+        "demo": "#",
+        "featured": true
+      },
+      {
+        "title": "Another Project",
+        "description": "Description of a backend service, microservices architecture, or SaaS platform you built. Highlight key technical achievements.",
+        "tags": ["Microservices", "Docker", "AWS", "PostgreSQL"],
+        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "github": "#",
+        "demo": "#",
+        "featured": false
+      },
+      {
+        "title": "Enterprise Integration",
+        "description": "A complex integration or automation system built for enterprise clients. Describe the scale, technology stack, and business outcome.",
+        "tags": ["Symfony", "React", "Vue.js", "CI/CD"],
+        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "github": "#",
+        "demo": "#",
+        "featured": false
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title_start": "Let's ",
+    "title_highlight": "work together",
+    "description": "I'm open to senior engineering roles, backend architecture consulting, and long-term technical partnerships. Let's talk.",
+    "labels": {
+      "Email": "Email",
+      "Phone": "Phone",
+      "Location": "Location",
+      "LinkedIn": "LinkedIn",
+      "Website": "Website",
+      "GitHub": "GitHub"
+    },
+    "values": {
+      "Location": "São Paulo, Brazil"
+    },
+    "cta_card": {
+      "title": "Ready to build something great?",
+      "description": "Whether you need to modernize a legacy system, scale a platform to handle millions of users, or architect a new SaaS product — I bring 13+ years of battle-tested experience to the table.",
+      "button": "Send me an email"
+    }
+  },
+  "footer": {
+    "built_with": "Built with",
+    "by": "by",
+    "links": {
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  }
+}

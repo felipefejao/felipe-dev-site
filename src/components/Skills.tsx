@@ -1,42 +1,44 @@
 import { useInView } from '../hooks/useInView';
-
-const skillGroups = [
-  {
-    category: 'Backend & Architecture',
-    color: 'primary',
-    skills: ['PHP', 'Laravel', 'Symfony', 'Zend Framework', 'REST APIs', 'Microservices', 'SOLID', 'Clean Architecture', 'SaaS Platforms'],
-  },
-  {
-    category: 'Frontend',
-    color: 'accent',
-    skills: ['React', 'Vue.js', 'JavaScript', 'TypeScript', 'HTML/CSS'],
-  },
-  {
-    category: 'Cloud & DevOps',
-    color: 'success',
-    skills: ['AWS', 'Docker', 'CI/CD', 'Production Environments'],
-  },
-  {
-    category: 'Databases',
-    color: 'warning',
-    skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'SQL Server', 'Oracle'],
-  },
-  {
-    category: 'Engineering Practices',
-    color: 'primary',
-    skills: ['PHPUnit', 'Code Review', 'Refactoring', 'Legacy Modernization', 'Technical Planning', 'Agile/Scrum'],
-  },
-];
-
-const colorMap: Record<string, { tag: string; dot: string }> = {
-  primary: { tag: 'bg-primary-950 border-primary-800 text-primary-300', dot: 'bg-primary-500' },
-  accent: { tag: 'bg-orange-950 border-orange-800 text-orange-300', dot: 'bg-orange-500' },
-  success: { tag: 'bg-green-950 border-green-800 text-green-300', dot: 'bg-green-500' },
-  warning: { tag: 'bg-yellow-950 border-yellow-800 text-yellow-300', dot: 'bg-yellow-500' },
-};
+import { useTranslation } from 'react-i18next';
 
 export function Skills() {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
+
+  const skillGroups = [
+    {
+      category: t('skills.categories.backend'),
+      color: 'primary',
+      skills: ['PHP', 'Laravel', 'Symfony', 'Zend Framework', 'REST APIs', 'Microservices', 'SOLID', 'Clean Architecture', 'SaaS Platforms'],
+    },
+    {
+      category: t('skills.categories.frontend'),
+      color: 'accent',
+      skills: ['React', 'Vue.js', 'JavaScript', 'TypeScript', 'HTML/CSS'],
+    },
+    {
+      category: t('skills.categories.cloud'),
+      color: 'success',
+      skills: ['AWS', 'Docker', 'CI/CD', 'Production Environments'],
+    },
+    {
+      category: t('skills.categories.databases'),
+      color: 'warning',
+      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'SQL Server', 'Oracle'],
+    },
+    {
+      category: t('skills.categories.practices'),
+      color: 'primary',
+      skills: ['PHPUnit', 'Code Review', 'Refactoring', 'Legacy Modernization', 'Technical Planning', 'Agile/Scrum'],
+    },
+  ];
+
+  const colorMap: Record<string, { tag: string; dot: string }> = {
+    primary: { tag: 'bg-primary-950 border-primary-800 text-primary-300', dot: 'bg-primary-500' },
+    accent: { tag: 'bg-orange-950 border-orange-800 text-orange-300', dot: 'bg-orange-500' },
+    success: { tag: 'bg-green-950 border-green-800 text-green-300', dot: 'bg-green-500' },
+    warning: { tag: 'bg-yellow-950 border-yellow-800 text-yellow-300', dot: 'bg-yellow-500' },
+  };
 
   return (
     <section id="skills" className="py-24 bg-neutral-900">
@@ -45,9 +47,9 @@ export function Skills() {
           ref={ref}
           className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
-          <SectionLabel>Skills</SectionLabel>
+          <SectionLabel>{t('skills.label')}</SectionLabel>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
-            Core <span className="text-primary-400">expertise</span>
+            {t('skills.title_start')}<span className="text-primary-400">{t('skills.title_highlight')}</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">

@@ -1,7 +1,9 @@
 import { Code2, Heart } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export function Footer() {
   const year = new Date().getFullYear();
+  const { t } = useTranslation();
 
   return (
     <footer className="bg-neutral-950 border-t border-neutral-800 py-8">
@@ -12,19 +14,25 @@ export function Footer() {
         </div>
 
         <p className="text-neutral-600 text-sm flex items-center gap-1.5">
-          Built with{' '}
+          {t('footer.built_with')}{' '}
           <Heart size={12} className="text-red-500 inline" />
-          {' '}by Felipe Silva &copy; {year}
+          {' '}{t('footer.by')} Felipe Silva &copy; {year}
         </p>
 
         <nav className="flex gap-4">
-          {['#about', '#skills', '#experience', '#portfolio', '#contact'].map((href) => (
+          {[
+            { href: '#about', label: t('footer.links.about') },
+            { href: '#skills', label: t('footer.links.skills') },
+            { href: '#experience', label: t('footer.links.experience') },
+            { href: '#portfolio', label: t('footer.links.portfolio') },
+            { href: '#contact', label: t('footer.links.contact') },
+          ].map((link) => (
             <a
-              key={href}
-              href={href}
-              className="text-neutral-600 hover:text-neutral-400 text-xs font-mono capitalize transition-colors duration-200"
+              key={link.href}
+              href={link.href}
+              className="text-neutral-600 hover:text-neutral-400 text-xs font-mono transition-colors duration-200"
             >
-              {href.slice(1)}
+              {link.label}
             </a>
           ))}
         </nav>

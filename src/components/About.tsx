@@ -1,8 +1,10 @@
 import { useInView } from '../hooks/useInView';
 import { MapPin, Calendar } from 'lucide-react';
+import { useTranslation, Trans } from 'react-i18next';
 
 export function About() {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
 
   return (
     <section id="about" className="py-24 bg-neutral-950">
@@ -11,49 +13,46 @@ export function About() {
           ref={ref}
           className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
-          <SectionLabel>About</SectionLabel>
+          <SectionLabel>{t('about.label')}</SectionLabel>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
-            Building software that{' '}
-            <span className="text-primary-400">scales</span>
+            {t('about.title_start')}{' '}
+            <span className="text-primary-400">{t('about.title_highlight')}</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <p className="text-neutral-300 text-lg leading-relaxed mb-6">
-                Senior Software Engineer with <strong className="text-white">13+ years</strong> of
-                experience designing, modernizing, and scaling business-critical systems for
-                fintechs, marketplaces, loyalty platforms, logistics, and healthtech companies.
+                <Trans i18nKey="about.p1">
+                  Senior Software Engineer with <strong className="text-white">13+ years</strong> of
+                  experience designing, modernizing, and scaling business-critical systems for
+                  fintechs, marketplaces, loyalty platforms, logistics, and healthtech companies.
+                </Trans>
               </p>
               <p className="text-neutral-400 leading-relaxed mb-6">
-                Strong expertise in backend architecture, legacy modernization, microservices, cloud
-                environments, and enterprise integrations. Proven track record working on
-                high-traffic applications and scalable SaaS platforms focused on performance,
-                maintainability, and long-term reliability.
+                {t('about.p2')}
               </p>
               <p className="text-neutral-400 leading-relaxed">
-                Experienced in driving architectural improvements, reducing technical debt, improving
-                engineering quality, and supporting mission-critical systems used by thousands of
-                users and enterprise clients.
+                {t('about.p3')}
               </p>
 
               <div className="flex flex-wrap gap-4 mt-8">
                 <div className="flex items-center gap-2 text-neutral-400 text-sm">
                   <MapPin size={16} className="text-primary-500" />
-                  São Paulo, Brazil
+                  {t('about.location')}
                 </div>
                 <div className="flex items-center gap-2 text-neutral-400 text-sm">
                   <Calendar size={16} className="text-primary-500" />
-                  13+ years experience
+                  {t('about.experience')}
                 </div>
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: '13+', label: 'Years of experience' },
-                { value: '5+', label: 'Industries served' },
-                { value: '5K+', label: 'Client migrations supported' },
-                { value: 'M+', label: 'Monthly users reached' },
+                { value: '13+', label: t('about.stat_years') },
+                { value: '5+', label: t('about.stat_industries') },
+                { value: '5K+', label: t('about.stat_migrations') },
+                { value: 'M+', label: t('about.stat_users') },
               ].map((stat) => (
                 <div
                   key={stat.label}

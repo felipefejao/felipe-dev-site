@@ -1,0 +1,232 @@
+{
+  "common": {
+    "scroll": "descer"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "portfolio": "Portfólio",
+    "education": "Educação",
+    "contact": "Contato",
+    "hire_me": "Contratar"
+  },
+  "hero": {
+    "available": "Disponível para novas oportunidades",
+    "title": "Engenheiro de Software Sênior & Arquiteto Backend",
+    "description": "13+ anos construindo plataformas SaaS escaláveis, microsserviços e sistemas de missão crítica para fintechs, marketplaces e clientes corporativos.",
+    "cta_contact": "Entrar em contato",
+    "cta_portfolio": "Ver portfólio"
+  },
+  "about": {
+    "label": "Sobre",
+    "title_start": "Construindo software que ",
+    "title_highlight": "escala",
+    "p1": "Engenheiro de Software Sênior com <1>13+ anos</1> de experiência projetando, modernizando e escalando sistemas de missão crítica para fintechs, marketplaces, plataformas de fidelidade, logística e healthtechs.",
+    "p2": "Forte experiência em arquitetura backend, modernização de legado, microsserviços, ambientes em nuvem e integrações corporativas. Histórico comprovado de trabalho em aplicações de alto tráfego e plataformas SaaS escaláveis com foco em desempenho, manutenibilidade e confiabilidade de longo prazo.",
+    "p3": "Experiente em conduzir melhorias arquiteturais, reduzir dívida técnica, melhorar a qualidade da engenharia e suportar sistemas críticos usados por milhares de usuários e clientes corporativos.",
+    "location": "São Paulo, Brasil",
+    "experience": "13+ anos de experiência",
+    "stat_years": "Anos de experiência",
+    "stat_industries": "Setores atendidos",
+    "stat_migrations": "Migrações de clientes",
+    "stat_users": "Usuários mensais"
+  },
+  "skills": {
+    "label": "Habilidades",
+    "title_start": "Especialidades ",
+    "title_highlight": "principais",
+    "categories": {
+      "backend": "Backend & Arquitetura",
+      "frontend": "Frontend",
+      "cloud": "Cloud & DevOps",
+      "databases": "Bancos de Dados",
+      "practices": "Práticas de Engenharia"
+    }
+  },
+  "experience": {
+    "label": "Experiência",
+    "title_start": "Jornada ",
+    "title_highlight": "profissional",
+    "items": [
+      {
+        "title": "Engenheiro de Software Sênior",
+        "company": "Rock Encantech",
+        "period": "Mar 2025 – Jan 2026",
+        "highlights": [
+          "Liderei iniciativas de backend e melhorias arquiteturais para uma plataforma de marketplace de fidelidade baseada em microsserviços.",
+          "Projetei e desenvolvi integrações escaláveis e recursos críticos focados na gestão de pontos e operações de troca.",
+          "Trabalhei em melhorias de escalabilidade, segurança e alta disponibilidade suportando operações corporativas.",
+          "Colaborei na tomada de decisões técnicas e evolução da plataforma a longo prazo."
+        ],
+        "tags": ["Microsserviços", "Plataforma de Fidelidade", "Alta Disponibilidade"]
+      },
+      {
+        "title": "Engenheiro de Software Sênior",
+        "company": "LL Loyalty",
+        "period": "Jun 2024 – Mar 2025",
+        "highlights": [
+          "Desenvolvi soluções de backend escaláveis e integrações corporativas para plataformas de marketplace de fidelidade.",
+          "Participei do planejamento técnico e implementação de MVPs para produtos orientados a fintechs.",
+          "Melhorei a estabilidade em produção, manutenibilidade e qualidade de engenharia em ambientes críticos.",
+          "Trabalhei com arquitetura de microsserviços focada em escalabilidade e eficiência operacional."
+        ],
+        "tags": ["Fintech", "MVP", "Microsserviços"]
+      },
+      {
+        "title": "Desenvolvedor Full Stack Sênior",
+        "company": "Pasquali Solution",
+        "period": "Ago 2023 – Jul 2024",
+        "highlights": [
+          "Projetei e desenvolvi integrações corporativas escaláveis e soluções de backend para clientes estratégicos.",
+          "Liderei esforços de modernização em sistemas legados, melhorando a manutenibilidade e escalabilidade a longo prazo.",
+          "Implementei testes automatizados e melhores práticas de engenharia usando SOLID e Clean Architecture.",
+          "Suportei ambientes de produção críticos e resolvi problemas operacionais de alta prioridade.",
+          "Trabalhei com Laravel, Symfony, React, Vue.js, AWS, MySQL e PostgreSQL."
+        ],
+        "tags": ["Laravel", "Symfony", "React", "AWS"]
+      },
+      {
+        "title": "Engenheiro de Backend Sênior",
+        "company": "Atlas Technologies",
+        "period": "Jul 2021 – Abr 2023",
+        "highlights": [
+          "Desenvolvi e otimizei serviços de backend para uma plataforma de marketplace de alto tráfego lidando com milhões de visitas mensais.",
+          "Refatorei sistemas legados melhorando a escalabilidade, manutenibilidade e qualidade de engenharia.",
+          "Construí integrações e novos recursos da plataforma suportando operações de marketplace em larga escala.",
+          "Colaborei em melhorias técnicas estratégicas focadas na confiabilidade e desempenho da plataforma a longo prazo.",
+          "Cliente principal: Fatal Model."
+        ],
+        "tags": ["Alto Tráfego", "Marketplace", "Modernização de Legado"]
+      },
+      {
+        "title": "Desenvolvedor Web",
+        "company": "YouSync",
+        "period": "Abr 2019 – Jun 2021",
+        "highlights": [
+          "Desenvolvi integrações e rotinas de automação para clientes corporativos de HealthTech.",
+          "Entreguei soluções críticas para empresas incluindo Petz e Ricoh.",
+          "Trabalhei em melhorias de eficiência operacional e sistemas de gestão escaláveis."
+        ],
+        "tags": ["HealthTech", "Automação", "Integrações"]
+      },
+      {
+        "title": "Desenvolvedor Web",
+        "company": "Union Softwares",
+        "period": "Mai 2017 – Nov 2019",
+        "highlights": [
+          "Mantive e evoluí sistemas focados no mercado imobiliário.",
+          "Suportei a migração de mais de 5.000 clientes ativos mantendo a estabilidade da plataforma e operações ininterruptas.",
+          "Trabalhei em iniciativas de otimização de fluxo de trabalho e modernização de sistemas."
+        ],
+        "tags": ["Imobiliário", "Migração de Clientes", "Modernização de Sistemas"]
+      }
+    ]
+  },
+  "education": {
+    "label": "Educação & Credenciais",
+    "title_start": "Formação ",
+    "title_highlight": "acadêmica",
+    "education_title": "Educação",
+    "certifications_title": "Certificações",
+    "languages_title": "Idiomas",
+    "items": [
+      {
+        "degree": "CST em Sistemas para Internet",
+        "institution": "UniCesumar",
+        "period": "2025 – 2027",
+        "status": "Em andamento"
+      },
+      {
+        "degree": "Técnico em Desenvolvimento de Sistemas",
+        "institution": "Instituto Federal de São Paulo (IFSP)",
+        "period": "Concluído",
+        "status": "Concluído"
+      }
+    ],
+    "certifications": [
+      { "name": "Scrum Fundamentals Certified (SFC)", "issuer": "SCRUMstudy" },
+      { "name": "Arquitetura Limpa", "issuer": "Autodidata" },
+      { "name": "Princípios SOLID", "issuer": "Autodidata" },
+      { "name": "Arquitetura de Software e Padrões de Projeto", "issuer": "Autodidata" }
+    ],
+    "languages": [
+      { "language": "Português", "level": "Nativo", "pct": 100 },
+      { "language": "Inglês", "level": "Profissional Pleno", "pct": 90 },
+      { "language": "Espanhol", "level": "Básico", "pct": 30 },
+      { "language": "Alemão", "level": "Básico", "pct": 25 }
+    ]
+  },
+  "portfolio": {
+    "label": "Portfólio",
+    "title_start": "Projetos ",
+    "title_highlight": "selecionados",
+    "description": "Uma seleção de projetos. Detalhes e links serão atualizados conforme os projetos forem tornados públicos.",
+    "featured_label": "Destaque",
+    "code_link": "Código",
+    "demo_link": "Demo",
+    "items": [
+      {
+        "title": "DeBto - Controle de Vendas",
+        "description": "Sistema completo para pequenos negócios gerenciarem vendas a prazo com organização e eficiência.",
+        "tags": ["PHP", "Laravel", "PostgreSQL", "REST API", "Heroku"],
+        "image": "img/debto-home.png",
+        "github": "#",
+        "demo": "https://debto.app.br",
+        "featured": true
+      },
+      {
+        "title": "Dev7 - Consultoria Corporativa",
+        "description": "Site de consultoria para empresas de tecnologia com foco em desenvolvimento de software.",
+        "tags": ["PHP", "Laravel", "React", "Redis" ,"Heroku", "MySQL"],
+        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "github": "#",
+        "demo": "https://dev7.com.br",
+        "featured": false
+      },
+      {
+        "title": "Superando Traumas",
+        "description": "Site para ajudar pessoas com traumas a lidar com a ansiedade e melhorar suas vidas.",
+        "tags": ["PHP", "Laravel", "Heroku", "PostgreSQL", "APIs"],
+        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "github": "#",
+        "demo": "https://superandotraumas.com.br",
+        "featured": false
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contato",
+    "title_start": "Vamos ",
+    "title_highlight": "trabalhar juntos",
+    "description": "Estou aberto a cargos de engenharia sênior, consultoria em arquitetura backend e parcerias técnicas de longo prazo. Vamos conversar.",
+    "labels": {
+      "Email": "Email",
+      "Phone": "Telefone",
+      "Location": "Localização",
+      "LinkedIn": "LinkedIn",
+      "Website": "Website",
+      "GitHub": "GitHub"
+    },
+    "values": {
+      "Location": "São Paulo, Brasil"
+    },
+    "cta_card": {
+      "title": "Pronto para construir algo incrível?",
+      "description": "Se você precisa modernizar um sistema legado, escalar uma plataforma para lidar com milhões de usuários ou arquitetar um novo produto SaaS — trago 13+ anos de experiência testada em batalha.",
+      "button": "Envie-me um email"
+    }
+  },
+  "footer": {
+    "built_with": "Construído com",
+    "by": "por",
+    "links": {
+      "about": "Sobre",
+      "skills": "Habilidades",
+      "experience": "Experiência",
+      "portfolio": "Portfólio",
+      "contact": "Contato"
+    }
+  }
+}
