@@ -9,6 +9,7 @@
     "experience": "Experiência",
     "portfolio": "Portfólio",
     "education": "Educação",
+    "resumes": "Currículos",
     "contact": "Contato",
     "hire_me": "Contratar"
   },
@@ -156,6 +157,16 @@
       { "language": "Inglês", "level": "Profissional Pleno", "pct": 90 },
       { "language": "Espanhol", "level": "Básico", "pct": 30 },
       { "language": "Alemão", "level": "Básico", "pct": 25 }
+    ]
+  },
+  "resumes": {
+    "label": "Currículos",
+    "title_start": "Baixe meu ",
+    "title_highlight": "currículo",
+    "description": "Disponível em inglês e português para download ou visualização online.",
+    "items": [
+      { "name": "Resume — English", "href": "/assets/Felipe_Silva_CV_Elite.pdf", "lang": "English" },
+      { "name": "Currículo — Português", "href": "/assets/Felipe_Silva_CV_Elite_PTBR.pdf", "lang": "Português" }
     ]
   },
   "portfolio": {

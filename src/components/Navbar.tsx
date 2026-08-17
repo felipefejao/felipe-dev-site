@@ -14,6 +14,7 @@ export function Navbar() {
     { href: '#experience', label: t('nav.experience') },
     { href: '#portfolio', label: t('nav.portfolio') },
     { href: '#education', label: t('nav.education') },
+    { href: '#resumes', label: t('nav.resumes') },
     { href: '#contact', label: t('nav.contact') },
   ];
 
