@@ -165,8 +165,8 @@
     "title_highlight": "resume",
     "description": "Available in English and Portuguese for download or online viewing.",
     "items": [
-      { "name": "Resume — English", "href": "/assets/Felipe_Silva_CV_Elite.pdf", "lang": "English" },
-      { "name": "Currículo — Português", "href": "/assets/Felipe_Silva_CV_Elite_PTBR.pdf", "lang": "Português" }
+      { "name": "Resume — English", "href": "/Felipe_Silva_CV_Elite.pdf", "lang": "English" },
+      { "name": "Currículo — Português", "href": "/Felipe_Silva_CV_Elite_PTBR.pdf", "lang": "Português" }
     ]
   },
   "portfolio": {
