@@ -15,19 +15,19 @@
   },
   "hero": {
     "available": "Disponível para novas oportunidades",
-    "title": "Engenheiro de Software Sênior & Arquiteto Backend",
-    "description": "13+ anos construindo plataformas SaaS escaláveis, microsserviços e sistemas de missão crítica para fintechs, marketplaces e clientes corporativos.",
+    "title": "Desenvolvedor Backend Sênior (PHP) | Desenvolvedor Backend Pleno (Python & Go)",
+    "description": "Engenheiro de Software Backend com mais de 13 anos de experiência projetando, modernizando e escalando sistemas distribuídos, microsserviços e APIs de alta disponibilidade em nuvem AWS. Especialista sênior no ecossistema PHP (Laravel, Symfony) com sólida atuação em serviços e automações backend em Python e Go (Golang).",
     "cta_contact": "Entrar em contato",
     "cta_portfolio": "Ver portfólio"
   },
   "about": {
     "label": "Sobre",
-    "title_start": "Construindo software que ",
-    "title_highlight": "escala",
-    "p1": "Engenheiro de Software Sênior com <1>13+ anos</1> de experiência projetando, modernizando e escalando sistemas de missão crítica para fintechs, marketplaces, plataformas de fidelidade, logística e healthtechs.",
-    "p2": "Forte experiência em arquitetura backend, modernização de legado, microsserviços, ambientes em nuvem e integrações corporativas. Histórico comprovado de trabalho em aplicações de alto tráfego e plataformas SaaS escaláveis com foco em desempenho, manutenibilidade e confiabilidade de longo prazo.",
-    "p3": "Experiente em conduzir melhorias arquiteturais, reduzir dívida técnica, melhorar a qualidade da engenharia e suportar sistemas críticos usados por milhares de usuários e clientes corporativos.",
-    "location": "São Paulo, Brasil",
+    "title_start": "Construindo sistemas backend que ",
+    "title_highlight": "escalam",
+    "p1": "Engenheiro de Software Backend com <1>13+ anos</1> de experiência projetando, modernizando e escalando sistemas distribuídos, microsserviços e APIs de alta disponibilidade em nuvem AWS.",
+    "p2": "Especialista sênior no ecossistema PHP (Laravel, Symfony) aplicando Clean Architecture, Domain-Driven Design (DDD), SOLID, testes automatizados rigorosos e modernização de legados críticos.",
+    "p3": "Experiência consolidada no desenvolvimento de serviços e automações backend em Python e Go (Golang), unindo alto desempenho computacional, consistência transacional e práticas rigorosas de observabilidade e testes automatizados.",
+    "location": "Salto, SP",
     "experience": "13+ anos de experiência",
     "stat_years": "Anos de experiência",
     "stat_industries": "Setores atendidos",
@@ -52,74 +52,76 @@
     "title_highlight": "profissional",
     "items": [
       {
-        "title": "Engenheiro de Software Sênior",
-        "company": "Rock Encantech",
-        "period": "Mar 2025 – Jan 2026",
+        "title": "Desenvolvedor Backend / Full Stack Sênior",
+        "company": "TRACKen — Remoto",
+        "period": "Junho/2026 – Presente",
         "highlights": [
-          "Liderei iniciativas de backend e melhorias arquiteturais para uma plataforma de marketplace de fidelidade baseada em microsserviços.",
-          "Projetei e desenvolvi integrações escaláveis e recursos críticos focados na gestão de pontos e operações de troca.",
-          "Trabalhei em melhorias de escalabilidade, segurança e alta disponibilidade suportando operações corporativas.",
-          "Colaborei na tomada de decisões técnicas e evolução da plataforma a longo prazo."
+          "Desenvolvo e sustento serviços backend e integrações de dados de back-office com foco em estabilidade operacional e alta disponibilidade.",
+          "Otimizo rotinas críticas de processamento e consultas em bancos relacionais, reduzindo tempos de resposta e gargalos transacionais."
         ],
-        "tags": ["Microsserviços", "Plataforma de Fidelidade", "Alta Disponibilidade"]
+        "tags": ["Back-office", "Alta Disponibilidade", "Otimização"]
       },
       {
-        "title": "Engenheiro de Software Sênior",
-        "company": "LL Loyalty",
-        "period": "Jun 2024 – Mar 2025",
+        "title": "Senior Backend Developer",
+        "company": "Rock Encantech — Remoto",
+        "period": "Março/2025 – Janeiro/2026",
         "highlights": [
-          "Desenvolvi soluções de backend escaláveis e integrações corporativas para plataformas de marketplace de fidelidade.",
-          "Participei do planejamento técnico e implementação de MVPs para produtos orientados a fintechs.",
-          "Melhorei a estabilidade em produção, manutenibilidade e qualidade de engenharia em ambientes críticos.",
-          "Trabalhei com arquitetura de microsserviços focada em escalabilidade e eficiência operacional."
+          "Projetei e evoluí microsserviços e integrações complexas em PHP (Laravel, Symfony) para marketplace de fidelidade de alta volumetria.",
+          "Implementei fluxos transacionais críticos de gestão e resgate de pontos, assegurando consistência financeira e baixa latência.",
+          "Conduzi iniciativas de otimização de performance em APIs e arquitetura distribuída na AWS com PostgreSQL e MySQL."
+        ],
+        "tags": ["PHP", "Microsserviços", "Fidelidade"]
+      },
+      {
+        "title": "Senior Backend Developer",
+        "company": "LL Loyalty — Remoto",
+        "period": "Junho/2024 – Março/2025",
+        "highlights": [
+          "Desenvolvi microsserviços transacionais e integrações escaláveis para plataformas de fidelidade e soluções financeiras.",
+          "Arquitetei e entreguei MVPs backend de alta performance, reduzindo o time-to-market de parceiros enterprise.",
+          "Elevei a resiliência e a manutenibilidade dos serviços em produção na AWS aplicando padrões modernos de engenharia de software."
         ],
         "tags": ["Fintech", "MVP", "Microsserviços"]
       },
       {
-        "title": "Desenvolvedor Full Stack Sênior",
-        "company": "Pasquali Solution",
-        "period": "Ago 2023 – Jul 2024",
+        "title": "Senior Backend Developer",
+        "company": "Pasquali Solution (Alocado na LL Loyalty / Luxury Loyalty) — Remoto",
+        "period": "Agosto/2023 – Julho/2024",
         "highlights": [
-          "Projetei e desenvolvi integrações corporativas escaláveis e soluções de backend para clientes estratégicos.",
-          "Liderei esforços de modernização em sistemas legados, melhorando a manutenibilidade e escalabilidade a longo prazo.",
-          "Implementei testes automatizados e melhores práticas de engenharia usando SOLID e Clean Architecture.",
-          "Suportei ambientes de produção críticos e resolvi problemas operacionais de alta prioridade.",
-          "Trabalhei com Laravel, Symfony, React, Vue.js, AWS, MySQL e PostgreSQL."
+          "Liderei a refatoração e modernização de sistemas legados utilizando Clean Architecture e princípios SOLID, reduzindo dívida técnica.",
+          "Implementei suítes de testes automatizados com PHPUnit, mitigando regressões em deploys contínuos.",
+          "Atuei na resolução de incidentes críticos em APIs e serviços corporativos de alto tráfego."
         ],
-        "tags": ["Laravel", "Symfony", "React", "AWS"]
+        "tags": ["Laravel", "Symfony", "Clean Architecture"]
       },
       {
-        "title": "Engenheiro de Backend Sênior",
-        "company": "Atlas Technologies",
-        "period": "Jul 2021 – Abr 2023",
+        "title": "Senior Backend Engineer",
+        "company": "Atlas Technologies (Cliente: Fatal Model) — Remoto",
+        "period": "Julho/2021 – Abril/2023",
         "highlights": [
-          "Desenvolvi e otimizei serviços de backend para uma plataforma de marketplace de alto tráfego lidando com milhões de visitas mensais.",
-          "Refatorei sistemas legados melhorando a escalabilidade, manutenibilidade e qualidade de engenharia.",
-          "Construí integrações e novos recursos da plataforma suportando operações de marketplace em larga escala.",
-          "Colaborei em melhorias técnicas estratégicas focadas na confiabilidade e desempenho da plataforma a longo prazo.",
-          "Cliente principal: Fatal Model."
+          "Desenvolvi e otimizei microsserviços backend em PHP e Laravel para plataforma com milhões de acessos mensais.",
+          "Executei refatorações estruturais em módulos transacionais de alta complexidade, aumentando a vazão e a escalabilidade em PostgreSQL e MySQL.",
+          "Construí APIs RESTful seguras e performáticas alinhadas às metas de monetização e crescimento do produto."
         ],
         "tags": ["Alto Tráfego", "Marketplace", "Modernização de Legado"]
       },
       {
-        "title": "Desenvolvedor Web",
-        "company": "YouSync",
-        "period": "Abr 2019 – Jun 2021",
+        "title": "Desenvolvedor Backend",
+        "company": "YouSync — Remoto / SP",
+        "period": "Abril/2019 – Junho/2021",
         "highlights": [
-          "Desenvolvi integrações e rotinas de automação para clientes corporativos de HealthTech.",
-          "Entreguei soluções críticas para empresas incluindo Petz e Ricoh.",
-          "Trabalhei em melhorias de eficiência operacional e sistemas de gestão escaláveis."
+          "Desenvolvi APIs RESTful, workers e integrações backend para grandes operações de HealthTech e Varejo (Ricoh, Petz).",
+          "Projetei serviços de comunicação em tempo real integrando hardware e nuvem para ecossistema de armários inteligentes (Smart Lockers)."
         ],
         "tags": ["HealthTech", "Automação", "Integrações"]
       },
       {
-        "title": "Desenvolvedor Web",
-        "company": "Union Softwares",
-        "period": "Mai 2017 – Nov 2019",
+        "title": "Desenvolvedor Web / Backend",
+        "company": "Union Softwares — SP",
+        "period": "Maio/2017 – Novembro/2019",
         "highlights": [
-          "Mantive e evoluí sistemas focados no mercado imobiliário.",
-          "Suportei a migração de mais de 5.000 clientes ativos mantendo a estabilidade da plataforma e operações ininterruptas.",
-          "Trabalhei em iniciativas de otimização de fluxo de trabalho e modernização de sistemas."
+          "Atuei no desenvolvimento backend e liderei a migração bem-sucedida de mais de 5.000 clientes corporativos no ecossistema Imobex, mantendo 100% de continuidade operacional.",
+          "Desenvolvi serviços e rotinas de dados com PHP, AWS, MongoDB e MySQL."
         ],
         "tags": ["Imobiliário", "Migração de Clientes", "Modernização de Sistemas"]
       }
@@ -134,23 +136,23 @@
     "languages_title": "Idiomas",
     "items": [
       {
-        "degree": "CST em Sistemas para Internet",
+        "degree": "Graduação Tecnológica (CST) em Sistemas para Internet",
         "institution": "UniCesumar",
         "period": "2025 – 2027",
         "status": "Em andamento"
       },
       {
         "degree": "Técnico em Desenvolvimento de Sistemas",
-        "institution": "Instituto Federal de São Paulo (IFSP)",
+        "institution": "Instituto Federal de São Paulo (IFSP) — Salto, SP",
         "period": "Concluído",
         "status": "Concluído"
       }
     ],
     "certifications": [
       { "name": "Scrum Fundamentals Certified (SFC)", "issuer": "SCRUMstudy" },
-      { "name": "Arquitetura Limpa", "issuer": "Autodidata" },
-      { "name": "Princípios SOLID", "issuer": "Autodidata" },
-      { "name": "Arquitetura de Software e Padrões de Projeto", "issuer": "Autodidata" }
+      { "name": "Clean Architecture & Princípios SOLID", "issuer": "Autodidata" },
+      { "name": "Arquitetura de Software: Introdução aos Padrões de Projeto", "issuer": "Autodidata" },
+      { "name": "Java: Orientação a Objetos e Tratamento de Exceções", "issuer": "Autodidata" }
     ],
     "languages": [
       { "language": "Português", "level": "Nativo", "pct": 100 },
@@ -159,59 +161,50 @@
       { "language": "Alemão", "level": "Básico", "pct": 25 }
     ]
   },
+  "portfolio": {
+    "label": "Portfólio",
+    "title_start": "Projetos ",
+    "title_highlight": "selecionados",
+    "description": "Uma seleção de projetos e plataformas. Detalhes e links são atualizados conforme novos projetos são publicados.",
+    "featured_label": "Destaque",
+    "code_link": "Código",
+    "demo_link": "Demo",
+    "items": [
+      {
+        "title": "Dev7 & Plataformas SaaS (CertiTest, EduCore, Debto)",
+        "description": "Ecossistema de arquitetura backend e plataformas SaaS multi-tenant desenvolvidas com PHP/Laravel, Python e serviços de alta concorrência, hospedadas na AWS. Implementação de motores de processamento assíncrono, APIs RESTful, integrações de pagamento (Stripe) e pipelines automatizados de CI/CD.",
+        "tags": ["PHP", "Laravel", "Python", "AWS", "SaaS"],
+        "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "github": "#",
+        "demo": "https://dev7.com.br",
+        "featured": true
+      },
+      {
+        "title": "Motores Quantitativos & Serviços Concorrentes (Python & Go)",
+        "description": "Desenvolvimento de algoritmos de análise de dados, automação financeira e microsserviços de baixa latência utilizando Python (Pandas, FastAPI) e Go (goroutines, APIs REST). Processamento concorrente de eventos em tempo real, alta eficiência de memória e execução determinística de regras de negócio.",
+        "tags": ["Python", "Pandas", "FastAPI", "Go", "Goroutines"],
+        "image": "https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "github": "#",
+        "demo": "#",
+        "featured": false
+      }
+    ]
+  },
   "resumes": {
     "label": "Currículos",
     "title_start": "Baixe meu ",
     "title_highlight": "currículo",
     "description": "Disponível em inglês e português para download ou visualização online.",
     "items": [
-      { "name": "Resume — English", "href": "/Felipe_Silva_CV_Elite.pdf", "lang": "English" },
-      { "name": "Currículo — Português", "href": "/Felipe_Silva_CV_Elite_PTBR.pdf", "lang": "Português" }
-    ]
-  },
-  "portfolio": {
-    "label": "Portfólio",
-    "title_start": "Projetos ",
-    "title_highlight": "selecionados",
-    "description": "Uma seleção de projetos. Detalhes e links serão atualizados conforme os projetos forem tornados públicos.",
-    "featured_label": "Destaque",
-    "code_link": "Código",
-    "demo_link": "Demo",
-    "items": [
-      {
-        "title": "DeBto - Controle de Vendas",
-        "description": "Sistema completo para pequenos negócios gerenciarem vendas a prazo com organização e eficiência.",
-        "tags": ["PHP", "Laravel", "PostgreSQL", "REST API", "Heroku"],
-        "image": "img/debto-home.png",
-        "github": "#",
-        "demo": "https://debto.app.br",
-        "featured": true
-      },
-      {
-        "title": "Dev7 - Consultoria Corporativa",
-        "description": "Site de consultoria para empresas de tecnologia com foco em desenvolvimento de software.",
-        "tags": ["PHP", "Laravel", "React", "Redis" ,"Heroku", "MySQL"],
-        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "github": "#",
-        "demo": "https://dev7.com.br",
-        "featured": false
-      },
-      {
-        "title": "Superando Traumas",
-        "description": "Site para ajudar pessoas com traumas a lidar com a ansiedade e melhorar suas vidas.",
-        "tags": ["PHP", "Laravel", "Heroku", "PostgreSQL", "APIs"],
-        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "github": "#",
-        "demo": "https://superandotraumas.com.br",
-        "featured": false
-      }
+      { "name": "Resume — English", "href": "/assets/curriculo-en.pdf", "lang": "English" },
+      { "name": "Currículo — Português", "href": "/assets/curriculo.pdf", "lang": "Português" }
     ]
   },
   "contact": {
     "label": "Contato",
     "title_start": "Vamos ",
     "title_highlight": "trabalhar juntos",
-    "description": "Estou aberto a cargos de engenharia sênior, consultoria em arquitetura backend e parcerias técnicas de longo prazo. Vamos conversar.",
+    "description": "Estou aberto a oportunidades sênior em backend, consultoria em arquitetura backend e parcerias técnicas de longo prazo. Vamos conversar.",
     "labels": {
       "Email": "Email",
       "Phone": "Telefone",
@@ -221,11 +214,11 @@
       "GitHub": "GitHub"
     },
     "values": {
-      "Location": "São Paulo, Brasil"
+      "Location": "Salto, SP"
     },
     "cta_card": {
       "title": "Pronto para construir algo incrível?",
-      "description": "Se você precisa modernizar um sistema legado, escalar uma plataforma para lidar com milhões de usuários ou arquitetar um novo produto SaaS — trago 13+ anos de experiência testada em batalha.",
+      "description": "Se você precisa modernizar um sistema legado, escalar uma plataforma para lidar com milhões de usuários ou arquitetar um novo produto SaaS — trago 13+ anos de experiência testada em produção.",
       "button": "Envie-me um email"
     }
   },

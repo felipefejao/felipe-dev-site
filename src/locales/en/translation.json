@@ -15,19 +15,19 @@
   },
   "hero": {
     "available": "Available for new opportunities",
-    "title": "Senior Software Engineer & Backend Architect",
-    "description": "13+ years building scalable SaaS platforms, microservices, and mission-critical systems for fintechs, marketplaces, and enterprise clients.",
+    "title": "Senior Backend Developer (PHP) | Backend Developer (Python & Go)",
+    "description": "Backend Software Engineer with 13+ years designing, modernizing and scaling distributed systems, microservices and high-availability cloud APIs on AWS. Senior-level PHP expert (Laravel, Symfony) with solid Python and Go (Golang) backend development experience.",
     "cta_contact": "Get in touch",
     "cta_portfolio": "View portfolio"
   },
   "about": {
     "label": "About",
-    "title_start": "Building software that ",
-    "title_highlight": "scales",
-    "p1": "Senior Software Engineer with <1>13+ years</1> of experience designing, modernizing, and scaling business-critical systems for fintechs, marketplaces, loyalty platforms, logistics, and healthtech companies.",
-    "p2": "Strong expertise in backend architecture, legacy modernization, microservices, cloud environments, and enterprise integrations. Proven track record working on high-traffic applications and scalable SaaS platforms focused on performance, maintainability, and long-term reliability.",
-    "p3": "Experienced in driving architectural improvements, reducing technical debt, improving engineering quality, and supporting mission-critical systems used by thousands of users and enterprise clients.",
-    "location": "São Paulo, Brazil",
+    "title_start": "Building backend systems that ",
+    "title_highlight": "scale",
+    "p1": "Backend Software Engineer with <1>13+ years</1> of experience designing, modernizing and scaling distributed systems, microservices and high-availability APIs in cloud environments.",
+    "p2": "Senior-level specialist in the PHP ecosystem (Laravel, Symfony) applying Clean Architecture, Domain-Driven Design (DDD), SOLID, rigorous automated testing and critical legacy modernization.",
+    "p3": "Consolidated experience developing backend services and automations in Python and Go (Golang), combining high computational performance, transactional consistency and strong observability and automated testing practices.",
+    "location": "Salto, SP, Brazil",
     "experience": "13+ years experience",
     "stat_years": "Years of experience",
     "stat_industries": "Industries served",
@@ -52,74 +52,76 @@
     "title_highlight": "journey",
     "items": [
       {
-        "title": "Senior Software Engineer",
-        "company": "Rock Encantech",
-        "period": "Mar 2025 – Jan 2026",
+        "title": "Senior Backend / Full Stack Developer",
+        "company": "TRACKen — Remote",
+        "period": "Jun 2026 – Present",
         "highlights": [
-          "Led backend initiatives and architectural improvements for a microservices-based loyalty marketplace platform.",
-          "Designed and developed scalable integrations and business-critical features focused on loyalty points management and exchange operations.",
-          "Worked on scalability, security, and high-availability improvements supporting enterprise-level operations.",
-          "Collaborated in technical decision-making and long-term platform evolution."
+          "Develop and sustain back-office backend services and data integrations focused on operational stability and high availability.",
+          "Optimize critical processing routines and relational database queries, reducing response times and transactional bottlenecks."
         ],
-        "tags": ["Microservices", "Loyalty Platform", "High Availability"]
+        "tags": ["Back-office", "High Availability", "Optimization"]
       },
       {
-        "title": "Senior Software Engineer",
-        "company": "LL Loyalty",
+        "title": "Senior Backend Developer",
+        "company": "Rock Encantech — Remote",
+        "period": "Mar 2025 – Jan 2026",
+        "highlights": [
+          "Designed and evolved microservices and complex integrations in PHP (Laravel, Symfony) for a high-volume loyalty marketplace.",
+          "Implemented critical transactional flows for points management and redemption, ensuring financial consistency and low latency.",
+          "Led API performance optimization and distributed architecture initiatives on AWS with PostgreSQL and MySQL."
+        ],
+        "tags": ["PHP", "Microservices", "Loyalty"]
+      },
+      {
+        "title": "Senior Backend Developer",
+        "company": "LL Loyalty — Remote",
         "period": "Jun 2024 – Mar 2025",
         "highlights": [
-          "Developed scalable backend solutions and enterprise integrations for loyalty marketplace platforms.",
-          "Participated in MVP technical planning and implementation for fintech-oriented products.",
-          "Improved production stability, maintainability, and engineering quality in critical environments.",
-          "Worked with microservices architecture focused on scalability and operational efficiency."
+          "Developed transactional microservices and scalable integrations for loyalty and financial solutions platforms.",
+          "Architected and delivered high-performance backend MVPs, reducing enterprise partners' time-to-market.",
+          "Improved production resilience and maintainability on AWS by applying modern software engineering patterns."
         ],
         "tags": ["Fintech", "MVP", "Microservices"]
       },
       {
-        "title": "Senior Full Stack Developer",
-        "company": "Pasquali Solution",
+        "title": "Senior Backend Developer",
+        "company": "Pasquali Solution (Allocated at LL Loyalty / Luxury Loyalty) — Remote",
         "period": "Aug 2023 – Jul 2024",
         "highlights": [
-          "Designed and developed scalable enterprise integrations and backend solutions for strategic clients.",
-          "Led modernization efforts in legacy systems improving maintainability and long-term scalability.",
-          "Implemented automated tests and engineering best practices using SOLID and Clean Architecture.",
-          "Supported critical production environments and resolved high-priority operational issues.",
-          "Worked with Laravel, Symfony, React, Vue.js, AWS, MySQL, and PostgreSQL."
+          "Led refactoring and modernization of legacy systems using Clean Architecture and SOLID principles, reducing technical debt.",
+          "Implemented automated test suites with PHPUnit, mitigating regressions in continuous deployments.",
+          "Acted on critical incident resolution for high-traffic corporate APIs and services."
         ],
-        "tags": ["Laravel", "Symfony", "React", "AWS"]
+        "tags": ["Laravel", "Symfony", "Clean Architecture"]
       },
       {
         "title": "Senior Backend Engineer",
-        "company": "Atlas Technologies",
+        "company": "Atlas Technologies (Client: Fatal Model) — Remote",
         "period": "Jul 2021 – Apr 2023",
         "highlights": [
-          "Developed and optimized backend services for a high-traffic marketplace platform handling millions of monthly visits.",
-          "Refactored legacy systems improving scalability, maintainability, and engineering quality.",
-          "Built integrations and new platform features supporting large-scale marketplace operations.",
-          "Collaborated in strategic technical improvements focused on long-term platform reliability and performance.",
-          "Main client: Fatal Model."
+          "Developed and optimized backend microservices in PHP and Laravel for a platform with millions of monthly accesses.",
+          "Executed structural refactorings in high-complexity transactional modules, increasing throughput and scalability on PostgreSQL and MySQL.",
+          "Built secure and performant RESTful APIs aligned with product monetization and growth goals."
         ],
         "tags": ["High-Traffic", "Marketplace", "Legacy Modernization"]
       },
       {
-        "title": "Web Developer",
-        "company": "YouSync",
+        "title": "Backend Developer",
+        "company": "YouSync — Remote / SP",
         "period": "Apr 2019 – Jun 2021",
         "highlights": [
-          "Developed integrations and automation routines for HealthTech enterprise clients.",
-          "Delivered business-critical solutions for companies including Petz and Ricoh.",
-          "Worked on operational efficiency improvements and scalable management systems."
+          "Developed RESTful APIs, workers and backend integrations for large HealthTech and Retail operations (Ricoh, Petz).",
+          "Designed real-time communication services integrating hardware and cloud for a Smart Lockers ecosystem."
         ],
         "tags": ["HealthTech", "Automation", "Integrations"]
       },
       {
-        "title": "Web Developer",
-        "company": "Union Softwares",
+        "title": "Web / Backend Developer",
+        "company": "Union Softwares — SP",
         "period": "May 2017 – Nov 2019",
         "highlights": [
-          "Maintained and evolved systems focused on the real estate market.",
-          "Supported the migration of more than 5,000 active clients while maintaining platform stability and uninterrupted operations.",
-          "Worked on workflow optimization and system modernization initiatives."
+          "Worked on backend development and led the successful migration of over 5,000 corporate clients in the Imobex ecosystem, maintaining 100% operational continuity.",
+          "Developed services and data routines with PHP, AWS, MongoDB and MySQL."
         ],
         "tags": ["Real Estate", "Client Migration", "System Modernization"]
       }
@@ -134,23 +136,23 @@
     "languages_title": "Languages",
     "items": [
       {
-        "degree": "CST in Internet Systems",
+        "degree": "Technologist Degree (CST) in Internet Systems",
         "institution": "UniCesumar",
         "period": "2025 – 2027",
         "status": "In progress"
       },
       {
         "degree": "Technical Degree in Systems Development",
-        "institution": "Instituto Federal de São Paulo (IFSP)",
+        "institution": "Instituto Federal de São Paulo (IFSP) — Salto, SP",
         "period": "Completed",
         "status": "Completed"
       }
     ],
     "certifications": [
       { "name": "Scrum Fundamentals Certified (SFC)", "issuer": "SCRUMstudy" },
-      { "name": "Clean Architecture", "issuer": "Self-directed" },
-      { "name": "SOLID Principles", "issuer": "Self-directed" },
-      { "name": "Software Architecture and Design Patterns", "issuer": "Self-directed" }
+      { "name": "Clean Architecture & SOLID Principles", "issuer": "Self-directed" },
+      { "name": "Software Architecture: Introduction to Design Patterns", "issuer": "Self-directed" },
+      { "name": "Java: Object-Oriented Programming and Exception Handling", "issuer": "Self-directed" }
     ],
     "languages": [
       { "language": "Portuguese", "level": "Native", "pct": 100 },
@@ -159,59 +161,50 @@
       { "language": "German", "level": "Basic", "pct": 25 }
     ]
   },
-  "resumes": {
-    "label": "Resumes",
-    "title_start": "Download my ",
-    "title_highlight": "resume",
-    "description": "Available in English and Portuguese for download or online viewing.",
-    "items": [
-      { "name": "Resume — English", "href": "/Felipe_Silva_CV_Elite.pdf", "lang": "English" },
-      { "name": "Currículo — Português", "href": "/Felipe_Silva_CV_Elite_PTBR.pdf", "lang": "Português" }
-    ]
-  },
   "portfolio": {
     "label": "Portfolio",
     "title_start": "Selected ",
     "title_highlight": "projects",
-    "description": "A curated selection of projects. Details and links will be updated as projects are made public.",
+    "description": "A curated selection of projects and platforms. Details and links are updated as new projects are published.",
     "featured_label": "Featured",
     "code_link": "Code",
     "demo_link": "Demo",
     "items": [
       {
-        "title": "DeBto - Sale Management System",
-        "description": "Complete system for small businesses to manage installment sales with organization and efficiency.",
-        "tags": ["PHP", "Laravel", "MySQL", "REST API"],
-        "image": "img/debto-home.png",
+        "title": "Dev7 & SaaS Platforms (CertiTest, EduCore, Debto)",
+        "description": "Backend architecture ecosystem and multi-tenant SaaS platforms built with PHP/Laravel, Python and high-concurrency services hosted on AWS. Implementation of asynchronous processing engines, RESTful APIs, payment integrations (Stripe) and automated CI/CD pipelines.",
+        "tags": ["PHP", "Laravel", "Python", "AWS", "SaaS"],
+        "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
         "github": "#",
-        "demo": "#",
+        "demo": "https://dev7.com.br",
         "featured": true
       },
       {
-        "title": "Another Project",
-        "description": "Description of a backend service, microservices architecture, or SaaS platform you built. Highlight key technical achievements.",
-        "tags": ["Microservices", "Docker", "AWS", "PostgreSQL"],
-        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "github": "#",
-        "demo": "#",
-        "featured": false
-      },
-      {
-        "title": "Enterprise Integration",
-        "description": "A complex integration or automation system built for enterprise clients. Describe the scale, technology stack, and business outcome.",
-        "tags": ["Symfony", "React", "Vue.js", "CI/CD"],
-        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "title": "Quantitative Engines & Concurrent Services (Python & Go)",
+        "description": "Development of data analysis algorithms, financial automation and low-latency microservices using Python (Pandas, FastAPI) and Go (goroutines, REST APIs). Real-time concurrent event processing, high memory efficiency and deterministic execution of business rules.",
+        "tags": ["Python", "Pandas", "FastAPI", "Go", "Goroutines"],
+        "image": "https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&w=800",
         "github": "#",
         "demo": "#",
         "featured": false
       }
     ]
   },
+  "resumes": {
+    "label": "Resumes",
+    "title_start": "Download my ",
+    "title_highlight": "resume",
+    "description": "Available in English and Portuguese for download or online viewing.",
+    "items": [
+      { "name": "Resume — English", "href": "/assets/Felipe_Silva_CV_Elite.pdf", "lang": "English" },
+      { "name": "Currículo — Português", "href": "/assets/Felipe_Silva_CV_Elite_PTBR.pdf", "lang": "Português" }
+    ]
+  },
   "contact": {
     "label": "Contact",
     "title_start": "Let's ",
     "title_highlight": "work together",
-    "description": "I'm open to senior engineering roles, backend architecture consulting, and long-term technical partnerships. Let's talk.",
+    "description": "I'm open to senior backend opportunities, backend architecture consulting and long-term technical partnerships. Let's talk.",
     "labels": {
       "Email": "Email",
       "Phone": "Phone",
@@ -221,11 +214,11 @@
       "GitHub": "GitHub"
     },
     "values": {
-      "Location": "São Paulo, Brazil"
+      "Location": "Salto, SP, Brazil"
     },
     "cta_card": {
       "title": "Ready to build something great?",
-      "description": "Whether you need to modernize a legacy system, scale a platform to handle millions of users, or architect a new SaaS product — I bring 13+ years of battle-tested experience to the table.",
+      "description": "Whether you need to modernize a legacy system, scale a platform to handle millions of users or architect a new SaaS product — I bring 13+ years of battle-tested production experience.",
       "button": "Send me an email"
     }
   },

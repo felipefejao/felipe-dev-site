@@ -32,7 +32,7 @@ export function Hero() {
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight animate-fade-up">
           Felipe{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-600">
-            Silva
+            Aparecido da Silva
           </span>
         </h1>
 
